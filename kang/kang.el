@@ -27,6 +27,7 @@
 (starter-kit-load "lisp")
 (starter-kit-load "misc-recommended")
 (starter-kit-load "ruby")
+(require 'ruby-electric)
 
 (color-theme-blackboard)
 (column-number-mode t)
@@ -35,3 +36,4 @@
 (add-to-list 'auto-mode-alist '("\\.scss$" . css-mode))
 
 (add-to-list 'auto-mode-alist '("\\.js$" . javascript-mode))
+
